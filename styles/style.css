@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+  font-family: "Arvo", serif;
+  font-weight: bold;
+}
+
+p {
+  color: green;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+/*font-family: 'Arvo', serif;
+font-family: 'Lato', sans-serif;*/
