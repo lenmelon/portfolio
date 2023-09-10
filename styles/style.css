@@ -1,14 +1,48 @@
-h1 {
-  color: red;
-  font-family: "Arvo", serif;
+:root {
+  --branding-color: #ae445a;
+  --secondary-color: #f5f5f5;
+  --heading-font-family: "Arvo", serif;
+  --default-font-family: "Lato", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
+  color: 451952;
+}
+
+h1 {
+  font-size: 96px;
 }
 
 p {
-  color: green;
-  font-family: "Lato", sans-serif;
   font-weight: normal;
 }
 
-/*font-family: 'Arvo', serif;
-font-family: 'Lato', sans-serif;*/
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: medium;
+  font-size: 24px;
+  line-height: 2;
+}
