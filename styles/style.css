@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #ae445a;
-  --secondary-color: #f5f5f5;
-  --heading-font-family: "Arvo", serif;
-  --default-font-family: "Lato", sans-serif;
+  --branding-color: #d972ff;
+  --secondary-color: #f7f7ff;
+  --heading-font-family: "Abril Fatface", cursive;
+  --default-font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -16,17 +16,16 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  font-weight: bold;
-  color: 451952;
+  color: #2c363f;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 50px;
   line-height: 1.5;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 42px;
 }
 
 p {
@@ -37,6 +36,10 @@ p {
 
 footer {
   margin: 60px 0;
+}
+
+footer p {
+  font-size: 12px;
 }
 
 footer .contact-box {
@@ -77,21 +80,28 @@ footer .social-links a:hover {
 
 .hero {
   background-color: var(--secondary-color);
-  text-align: center;
-  padding: 80px 20px;
+  padding: 145px 0;
+}
+
+.hero h1 {
+  padding: 10px;
+  margin: 0 100px 0 200px;
 }
 
 .hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
+  font-size: 24px;
+  margin: 0 100px 0 200px;
+  padding: 10px;
 }
 
 .hero h2 {
-  font-family: var(--default-font-family);
-  font-weight: medium;
-  font-size: 24px;
+  font-family: var(--heading-font-family);
+  font-size: 20px;
   line-height: 1.5;
+}
+
+.hero-subheading {
+  font-family: var(--default-font-family);
 }
 
 .content-container {
@@ -123,7 +133,7 @@ footer .social-links a:hover {
 }
 
 .btn-branding {
-  color: var(--secondary-color);
+  color: white;
   background-color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
@@ -155,16 +165,29 @@ footer .social-links a:hover {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 50px;
+    font-size: 42px;
     line-height: 56px;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 34px;
   }
 
   h3 {
     font-size: 24px;
+  }
+
+  .hero {
+    padding: 40px;
+  }
+
+  .hero h1 {
+    margin: 20px;
+  }
+
+  .hero p {
+    margin: 20px;
+    line-height: 1.5;
   }
 
   .project-description {
