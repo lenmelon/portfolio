@@ -113,7 +113,7 @@ footer .social-links a:hover {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 50px;
   line-height: 80px;
 }
 
@@ -166,11 +166,12 @@ footer .social-links a:hover {
 @media (max-width: 960px) {
   h1 {
     font-size: 42px;
-    line-height: 56px;
+    line-height: 40px;
   }
 
   h2 {
     font-size: 34px;
+    line-height: 30px;
   }
 
   h3 {
@@ -190,8 +191,12 @@ footer .social-links a:hover {
     line-height: 1.5;
   }
 
+  .hero-subheading {
+    font-size: 24px;
+  }
   .project-description {
     padding: 0;
+    margin: 20px;
     text-align: center;
   }
 
@@ -201,7 +206,8 @@ footer .social-links a:hover {
   }
 
   .content h1 {
-    font-size: 50px;
+    font-size: 40px;
+    line-height: 60px;
   }
 
   footer .contact-box {
